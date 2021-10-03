@@ -1,0 +1,39 @@
+body {
+  font-family: "Merienda", cursive;
+}
+
+.margin {
+  margin-left: auto;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #88648821 !important;
+}
+
+.center {
+  text-align: center;
+}
+
+H2,
+h3 {
+  font-size: 1.7rem;
+}
+
+main {
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(#f2f2f2));
+  background: linear-gradient(grey, #f2f2f2);
+  max-width: 1280px;
+  min-height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 50px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
