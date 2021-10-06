@@ -1,3 +1,7 @@
 fetch('http://localhost:3000/api/cameras')
-.then(res => res.json())
-.then(data => console.log(data))
+.then((reponse) => {
+    return reponse.json()
+})
+.then((donnees) => {
+    console.log(donnees)
+})
