@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Le meilleur site pour choisir sa caméra haute gamme!">
+    <script src="https://kit.fontawesome.com/f942aa1f3e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>choissisez votre produit</title>
@@ -21,13 +22,13 @@
                 <div class="collapse navbar-collapse" id="bg-light">
                     <ul class="navbar-nav margin">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i>Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="produit.html">Nos produits</a>
+                        <a class="nav-link" href="produit.html"><i class="fas fa-camera"></i>Nos produits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="panier.html">Panier</a>
+                        <a class="nav-link" href="panier.html"><i class="fas fa-shopping-basket"></i>Panier</a>
                     </li>
                     </ul>
                 </div>
@@ -36,13 +37,39 @@
     </header>
     <main>
         <div id="titreProduit">
-            <H1 class="center">Oriphoto</H1>
-         </div>
+        <h1 class="titrePage center">
+            Oriphoto<i class="fas fa-camera"></i>
+        </h1>
+        </div>
          <h2 class="center">Choissisez votre appareil photo!</h2>
-         div
+         <div id="produit">
+            <div class="card">
+                <img src="/JWDP5/images/vcam_1.jpg" class="card-img-top" alt="appareil photo 1">
+                <div class="card-body center">
+                    <h5 class="card-title">Appareil IPHONUS</h5>
+                    <div class="price"><span>200€</span></div>
+                    <p class="card-text center">
+                        Description:
+                        16 Mpx video : HD <br>
+                        zoom optique:x5 <br>
+                        Stabilisateur: Numerique <br>
+                        garantie 2ans <br> option:bluetooth <br>
+                        carte memoire integré <br>batterie</p>
+                    <button type="button" class="btn btn-dark">ajouter au panier</button>
+            
+                </div>
+            </div>
+         </div>
     </main>
     <footer>
-        <H3 class="center">Orinoco Oriphoto | Entreprise de commerce en ligne</H3>
+        <H3 class="center">Orinoco Oriphoto |<i class="far fa-copyright"></i> Entreprise de commerce en ligne</H3>
+        <H4 class="center">114 rue edouard tremblay 75004 PARIS</H4>
+        <div class="reseau center">
+            <span><i class="fab fa-instagram"></i></i></span>
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fas fa-envelope"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>

@@ -16,24 +16,92 @@ body {
 }
 
 H2,
-h3 {
+h3,
+.reseau {
   font-size: 1.7rem;
 }
 
 main {
-  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(#f2f2f2));
-  background: linear-gradient(grey, #f2f2f2);
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(#ac9898));
+  background: linear-gradient(grey, #ac9898);
   max-width: 1280px;
   min-height: 100%;
   margin: 0 auto;
   position: relative;
+  color: white;
+}
+
+.card {
+  background-color: grey;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1.5px solid black;
+}
+
+.VoirPnaier.center {
+  margin-bottom: 10px;
+}
+
+#produit {
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+}
+
+.btn.btn-dark.center {
+  width: 20rem;
+}
+
+.logofooter {
+  margin: auto;
+  width: 20%;
+}
+
+.row.g-3bis {
+  text-align: center;
+  padding-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card2 {
+  width: 23rem;
+  margin-left: 35%;
+}
+
+.col-md-42 {
+  width: 50.333%;
+  margin-left: 24%;
+}
+
+.envoiCommande {
+  border: 2px solid black;
+  width: 50%;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-left: 25%;
+  background-color: white;
+  color: black;
+}
+
+.recapitulatif.center {
+  margin-left: 30%;
+  padding-bottom: 10px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  padding-top: 50px;
-  height: 50px;
+  background-color: grey;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
